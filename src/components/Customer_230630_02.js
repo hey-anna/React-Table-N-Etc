@@ -1,5 +1,6 @@
 import React from "react";
 
+//
 function Customer(props) {
   return (
     <div>
@@ -7,7 +8,7 @@ function Customer(props) {
       <CustomerInfo
         birthday={props.birthday}
         gender={props.gender}
-        job={props.job}
+        job={props.gender}
       />
     </div>
   );
