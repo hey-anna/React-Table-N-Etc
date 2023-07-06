@@ -1,6 +1,5 @@
 import React from "react";
 
-// 한명에 대한 고객 정보로 들어갈 내용이 프로파일,인포 총 2개의 컴포넌트 나누어서 들가게 만듦
 function Customer(props) {
   return (
     <div>
@@ -8,7 +7,7 @@ function Customer(props) {
       <CustomerInfo
         birthday={props.birthday}
         gender={props.gender}
-        job={props.gender}
+        job={props.job}
       />
     </div>
   );
